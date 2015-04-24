@@ -13,6 +13,6 @@ I have hardcoded the file paths as I found it a bit tough to manipulate the diff
 Thus, I placed the unzipped file at C:\Users\yourname\Documents\R\
 My run_analysis.R is also at the same location.
 
-The final, tidy output is a file, called tidyDat.csv, of the following dimensions 78*181 (180 columns = 6 activities * 30 subj.)
+The final, tidy output is a file, called tidyDat.csv, of the following dimensions 80*181 (180 columns = 6 activities * 30 subj.)
 
 Thanks for giving my work a look.
