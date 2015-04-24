@@ -71,6 +71,7 @@ ds <- c(ds,lbl_ds)
 ds <- tbl_df(as.data.frame(ds))
 
 
+
 ## 4. Label the data set with descriptive activity names
 # Name the features in the DS
 ds <- cbind(ds,ds_subject)
