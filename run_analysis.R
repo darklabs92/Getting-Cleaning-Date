@@ -84,7 +84,7 @@ write.table(ds, "merged_clean_data.txt")
 #      for each activity and each subject
 
 sp<-split(ds,list(ds$subject,ds$activity))
-td<-sapply(sp, function(x) colMeans(x[3:79]))
+td<-sapply(sp, function(x) colMeans(x[1:79]))
 #rm(sp,ds)
 
 write.csv(td, file="./tidyDat.csv")
