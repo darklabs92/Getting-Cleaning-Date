@@ -30,4 +30,4 @@ The process followed is -
 5. Finally, I take the new cleansed data set and generate another data set which is grouped by the subject & activity. On applying the colMeans
   function to all the feature measurements in the data set, I finally achieve my tidy data set.
 
-Hence, I have created a clean and tidy 78*181 data set. 77 = features which matched the conditions & 180 = 6 activities * 30 subjects
+Hence, I have created a clean and tidy 80*181 data set. 79 = features which matched the conditions & 180 = 6 activities * 30 subjects
